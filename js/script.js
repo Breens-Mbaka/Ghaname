@@ -1,10 +1,4 @@
+//function for giving Akan names according to which day of the week a user was born
+function akanNaming() {
 
-
-
-
-
-
-var century = parseInt(document.getElementById("century")).value;
-var year = parseInt(document.getElementById("year")).value;
-var month = parseInt(document.getElementById("month")).value;
-var day = parseInt(document.getElementById("day")).value;
+}
