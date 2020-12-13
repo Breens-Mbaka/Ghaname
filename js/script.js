@@ -38,4 +38,29 @@ function akanNaming() {
             alert("Hey your Akan name is: " + akanMaleNames[6]);
         }
     }
+
+    //this else control flow is executed if the user is a female
+    else {
+        if(dayOfTheWeek === 0) {
+            alert("Hey your Akan name is: " + akanFemaleNames[0]);
+        }
+        else if(dayOfTheWeek === 1) {
+            alert("Hey your Akan name is: " + akanFemaleNames[1]);
+        }
+        else if(dayOfTheWeek === 2) {
+            alert("Hey your Akan name is: " + akanFemaleNames[2]);
+        }
+        else if(dayOfTheWeek === 3) {
+            alert("Hey your Akan name is: " + akanFemaleNames[3]);
+        }
+        else if(dayOfTheWeek === 4) {
+            alert("Hey your Akan name is: " + akanFemaleNames[4]);
+        }
+        else if(dayOfTheWeek === 5) {
+            alert("Hey your Akan name is: " + akanFemaleNames[5]);
+        }
+        else {
+            alert("Hey your Akan name is: " + akanFemaleNames[6]);
+        }
+    }
 }
