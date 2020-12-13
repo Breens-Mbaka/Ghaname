@@ -5,7 +5,7 @@ function akanNaming() {
 
 }
 
-var century = document.getElementById("century");
-var year = document.getElementById("year");
-var month = document.getElementById("month");
-var day = document.getElementById("day");
+var century = document.getElementById("century").value;
+var year = document.getElementById("year").value;
+var month = document.getElementById("month").value;
+var day = document.getElementById("day").value;
