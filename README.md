@@ -24,10 +24,11 @@ Ghaname allows users to know their Ghanaian name.
 ## Behavior Driven Development
 |Behaviour|input expected|output to return|
 |---------|--------------|----------------|
-|year born|1999          |"Kwasi"         |
-|month    |1 to 12       |"Kwadwo"        |
-|day      |1 t0 30       |"Kwaku"         |
-|gender   |male or female|"Yaw"           |
+|century  | 20th or 21st | name           |
+|year born|1999          | name           |
+|month    |1 to 12       | name           |
+|day      |1 t0 30       | name           |
+|gender   |male or female| name           |
 
 ## Status
 Project is: _in progress_.Finished setting up project will begin implementing features
