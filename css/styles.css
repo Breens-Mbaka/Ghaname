@@ -1,3 +1,7 @@
-.container .form-group input{
+body {
+    font-family: 'Balsamiq Sans', cursive;
+}
+.container {
     width: 40%;
+    text-align: center;
 }
