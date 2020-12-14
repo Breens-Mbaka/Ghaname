@@ -19,7 +19,13 @@ Ghaname allows users to know their Ghanaian name.
 * Bootstrap
 
 ## Setup
-(Setup instructions will go here)
+````
+git clone https://github.com/Breens-Thomas/Ghaname.git
+cd naming
+
+````
+## Link to live site
+https://breens-thomas.github.io/Ghaname/
 
 ## Behavior Driven Development
 |Behaviour|input expected|output to return|
