@@ -4,3 +4,13 @@ body {
 .container {
     text-align: center;
 }
+
+.container .row .col-md-6 .panel-body {
+    font-size: 18px;
+    line-height: 1.6em;
+}
+
+.container .row .col-md-6 .panel .panel-heading h1 img {
+    width: 20px;
+    height: 20px;
+}
