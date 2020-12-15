@@ -14,7 +14,9 @@
 * [Author](#author)
 
 ## Project description
-Ghaname allows users to know their Ghanaian name.
+For this week's Independent Project, you will be required to build a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
+
+
 
 ## Technologies
 * HTML
