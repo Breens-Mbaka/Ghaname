@@ -9,6 +9,12 @@ function akanNaming() {
     var day = document.getElementById("day").value;
     var gender = document.getElementById("gender").value;
 
+    //check and alert user if they have entered wrong data
+    if((month < 1 || month > 12) || (day < 1 || day > 30)) {
+        alert("INVALID INPUT:")
+        return;
+    }
+
     //calculation to get century part "19"/"20"
     var centuryInput = year * 0.01//convert to decimal to get year part
     var century = Math.trunc(centuryInput);//remove decimal to remain with century
