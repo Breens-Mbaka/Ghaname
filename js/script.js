@@ -24,6 +24,9 @@ function akanNaming() {
     var yearPart = yearInput % 1;//get the remainder
     var year = yearPart * 100// change it back to whole number to get year
 
+    //calculation to know which day of the week the user was born
+    var dayOfTheWeek = Math.trunc((((century/4)-2*century-1)+((5*year/4) )+((26*(month+1)/10))+day)%7);
+
     //this condition must be true so that the nested if/else if statements can be executed
     if(gender === "male") {
         if(dayOfTheWeek === 0) {
