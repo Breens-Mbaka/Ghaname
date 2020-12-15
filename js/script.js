@@ -9,10 +9,14 @@ function akanNaming() {
     var day = document.getElementById("day").value;
     var gender = document.getElementById("gender").value;
 
-    //calculation to get the century which the user was born in
-    var century = Math.trunc(Math.round(year * 0.01));
-    //calculation to know which day of the week the user was born
-    var dayOfTheWeek = Math.round((((century/4)-2*century-1)+((5*year/4))+((26*(month+1)/10))+day)%7);
+    //calculation to get century part "19"/"20"
+    var centuryInput = year * 0.01//convert to decimal to get year part
+    var century = Math.trunc(centuryInput);//remove decimal to remain with century
+
+    //calculation to get year part "-88"/"10"
+    var yearInput = year * 0.01//convert to decimal to get year part
+    var yearPart = yearInput % 1;//get the remainder
+    var year = yearPart * 100// change it back to whole number to get year
 
     //this condition must be true so that the nested if/else if statements can be executed
     if(gender === "male") {
