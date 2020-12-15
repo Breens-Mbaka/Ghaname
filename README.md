@@ -28,6 +28,7 @@ For this week's Independent Project, you will be required to build a web applica
 ````
 git clone https://github.com/Breens-Thomas/Ghaname.git
 cd naming
+code .
 
 ````
 ## Link to live site
