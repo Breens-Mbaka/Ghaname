@@ -1,5 +1,7 @@
 # Ghaname
-> Ghaname is a web application that gives Ghanian names based on the day of week you were born
+> This is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name. 
+
+
 
 ## Table of contents
 * [Project description](#project-description)
@@ -30,14 +32,13 @@ https://breens-thomas.github.io/Ghaname/
 ## Behavior Driven Development
 |Behaviour|input expected|output to return|
 |---------|--------------|----------------|
-|century  | 20th or 21st | name           |
-|year born|1999          | name           |
-|month    |1 to 12       | name           |
-|day      |1 t0 30       | name           |
-|gender   |male or female| name           |
+|year born|1999          | Akan name      |
+|month    |1 to 12       | Akan name      |
+|day      |1 t0 30       | Akan name      |
+|gender   |male or female| Akan name      |
 
 ## Status
-Project is: _in progress_.Finished setting up project will begin implementing features
+Project is: _finished_.Still need to add more styling
 
 ## Author
 Created by [@Breens](https://www.linkedin.com/in/breens-mbaka-b447781b9/) - feel free to contact me!
