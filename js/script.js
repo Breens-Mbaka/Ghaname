@@ -18,7 +18,7 @@ function akanNaming() {
     var yearPart = yearInput % 1; //get the remainder
     var year = yearPart * 100; // change it back to whole number to get year
 
-    //check and alert user if they have entered wrong data
+    //if user entered valid details continue, else alert them and exit
     if ((gender === "male" || gender === "female") && (month > 1 || month <= 12) && (day > 1 || day <= 31)){
         var dayOfTheWeek = Math.round((((century / 4) - 2 * century - 1) + ((5 * year / 4)) + ((26 * (month + 1) / 10)) + day) % 7);
         console.log(dayOfTheWeek)
