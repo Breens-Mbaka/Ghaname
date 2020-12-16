@@ -19,15 +19,15 @@ function akanNaming() {
     var year = yearPart * 100; // change it back to whole number to get year
 
     //check and alert user if they have entered wrong data
-    if ((month < 1 || month > 12) && (day < 1 || day > 31)){
-        alert("INVALID INPUT:");
+    if ((gender === "male" || gender === "female") && (month > 1 || month <= 12) && (day > 1 || day <= 31)){
+        var dayOfTheWeek = Math.round((((century / 4) - 2 * century - 1) + ((5 * year / 4)) + ((26 * (month + 1) / 10)) + day) % 7);
+        console.log(dayOfTheWeek)
     }
-
-    
-    //calculation to know which day of the week the user was born
-    var dayOfTheWeek = Math.round((((century / 4) - 2 * century - 1) + ((5 * year / 4)) + ((26 * (month + 1) / 10)) + day) % 7);
-    console.log(dayOfTheWeek)
-    
+    else {
+        alert("INVALID INPUT");
+        return;
+    }
+   
     
 
 
