@@ -19,8 +19,15 @@ function akanNaming() {
     var year = yearPart * 100; // change it back to whole number to get year
 
     //if user entered valid details continue, else alert them and exit
-    if ((gender === "male" && gender === "female") && (month > 1 && month <= 12) && (day > 1 && day <= 31)){
+    if ((month > 1 && month <= 12) && (day > 1 && day <= 31)){
         var dayOfTheWeek = Math.round((((century / 4) - 2 * century - 1) + ((5 * year / 4)) + ((26 * (month + 1) / 10)) + day) % 7);
+        if(gender ==="male" || gender === "female") {
+            var dayOfTheWeek = Math.round((((century / 4) - 2 * century - 1) + ((5 * year / 4)) + ((26 * (month + 1) / 10)) + day) % 7);
+        }
+        else {
+            alert("Wrong input")
+            return;
+        }
     }
     else {
         alert("INVALID INPUT");
