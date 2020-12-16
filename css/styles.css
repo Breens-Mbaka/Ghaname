@@ -1,6 +1,7 @@
 body {
     font-family: 'Balsamiq Sans', cursive;
     background-color: whitesmoke;
+    margin: 25px;
 }
 .container {
     text-align: center;
@@ -14,4 +15,8 @@ body {
 .container .row .col-md-6 .panel .panel-heading h1 img {
     width: 20px;
     height: 20px;
+}
+
+.container .row .col-md-6 .panel {
+    margin: 20px;
 }
